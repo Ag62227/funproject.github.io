@@ -4,6 +4,6 @@ document.getElementById('danceButton').addEventListener('click', () => {
 });
 
 document.getElementById('musicButton').addEventListener('click', () => {
-    const audio = new Audio('turtle_music.mp3'); // Replace with your turtle music file
+    const audio = new Audio('turtleSound.m4a'); 
     audio.play();
 });
