@@ -1,1 +1,58 @@
-body { background-color: hsla(9, 100%, 64%, 0.5); }
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; 
+}
+
+header {
+    text-align: center;
+    background-color: #20B2AA; /* Light Sea Green */
+    padding: 20px;
+    color: white;
+}
+
+#hero {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.turtle-container {
+    position: relative;
+}
+
+#coolTurtle {
+    width: 200px;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+#coolTurtle:hover {
+    transform: rotate(360deg);
+}
+
+#content {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFD700; /* Gold */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #DAA520; /* Goldenrod */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #20B2AA; /* Light Sea Green */
+    color: white;
+}
