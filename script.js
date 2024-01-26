@@ -6,15 +6,6 @@ document.getElementById('danceButton').addEventListener('click', () => {
 document.getElementById('musicButton').addEventListener('click', () => {
     const audio = new Audio('turtleSound.m4a'); 
     audio.play();
-    showNotification('Turtle music is playing!');
+    alert("Hello! I am an alert box!!");
 });
-function showNotification(message) {
-    const notification = document.createElement('div');
-    notification.classList.add('notification');
-    notification.textContent = message;
-    document.body.appendChild(notification);
 
-    setTimeout(() => {
-        notification.remove();
-    }, 2000); // Remove the notification after 2 seconds
-}
