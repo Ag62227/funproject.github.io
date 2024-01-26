@@ -1,6 +1,6 @@
 document.getElementById('danceButton').addEventListener('click', () => {
     const turtle = document.getElementById('coolTurtle');
-    turtle.style.transform = 'rotate(360deg)';
+    turtle.style.transform = 'rotate(90deg)';
 });
 
 document.getElementById('musicButton').addEventListener('click', () => {
